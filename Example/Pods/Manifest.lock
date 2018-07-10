@@ -1,0 +1,16 @@
+PODS:
+  - GrouviActionSheet (0.1.0)
+
+DEPENDENCIES:
+  - GrouviActionSheet (from `../`)
+
+EXTERNAL SOURCES:
+  GrouviActionSheet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GrouviActionSheet: 0242051cacb2e7b0a3513ecce7d970611d8a317d
+
+PODFILE CHECKSUM: 15e044ba70401cf23af97466be79cf12e0fb5e1c
+
+COCOAPODS: 1.5.3
