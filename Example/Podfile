@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GrouviActionSheet_Example' do
+  pod 'GrouviActionSheet', :path => '../'
+
+  target 'GrouviActionSheet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
