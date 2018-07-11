@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   s.author           = { 'max' => 'trickster77777@gmail.com' }
   s.source           = { :git => 'https://github.com/grouvilimited/GrouviActoinSheet.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.swift_version = '4.1'
 
   s.ios.deployment_target = '9.3'
 
