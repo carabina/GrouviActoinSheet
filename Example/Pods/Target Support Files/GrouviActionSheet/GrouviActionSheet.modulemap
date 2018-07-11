@@ -1,6 +1,0 @@
-framework module GrouviActionSheet {
-  umbrella header "GrouviActionSheet-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,5 +1,5 @@
 import Foundation
-import GrouviExtensionKit
+import GrouviExtensions
 import SnapKit
 
 public enum ActionStyle: Int { case alert, sheet }

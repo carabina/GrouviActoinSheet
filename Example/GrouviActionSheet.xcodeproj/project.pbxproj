@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B9234DBA482E2BD238F660E /* Pods_GrouviActionSheet_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021FAFE0ABF8A50B9A3466A3 /* Pods_GrouviActionSheet_Tests.framework */; };
-		466FAB80C8C1FA1FF95CD1BF /* Pods_GrouviActionSheet_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E436F89C099034F78D93E2 /* Pods_GrouviActionSheet_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,12 +26,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		021FAFE0ABF8A50B9A3466A3 /* Pods_GrouviActionSheet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrouviActionSheet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		060512EDD79D2AD0592D52D4 /* Pods-GrouviActionSheet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrouviActionSheet_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrouviActionSheet_Example/Pods-GrouviActionSheet_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		15E183569153BDAF5D6BD810 /* Pods-GrouviActionSheet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrouviActionSheet_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrouviActionSheet_Tests/Pods-GrouviActionSheet_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1908138334D0DF30C61B07C0 /* Pods-GrouviActionSheet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrouviActionSheet_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrouviActionSheet_Tests/Pods-GrouviActionSheet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		38E436F89C099034F78D93E2 /* Pods_GrouviActionSheet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrouviActionSheet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F3A8F9590078F55A46A5EFC /* Pods-GrouviActionSheet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrouviActionSheet_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrouviActionSheet_Example/Pods-GrouviActionSheet_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GrouviActionSheet_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrouviActionSheet_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				466FAB80C8C1FA1FF95CD1BF /* Pods_GrouviActionSheet_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,24 +53,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B9234DBA482E2BD238F660E /* Pods_GrouviActionSheet_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A45ADB5125ED2F1EF7370D5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				060512EDD79D2AD0592D52D4 /* Pods-GrouviActionSheet_Example.debug.xcconfig */,
-				3F3A8F9590078F55A46A5EFC /* Pods-GrouviActionSheet_Example.release.xcconfig */,
-				1908138334D0DF30C61B07C0 /* Pods-GrouviActionSheet_Tests.debug.xcconfig */,
-				15E183569153BDAF5D6BD810 /* Pods-GrouviActionSheet_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -87,8 +66,6 @@
 				607FACD21AFB9204008FA782 /* Example for GrouviActionSheet */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				3A45ADB5125ED2F1EF7370D5 /* Pods */,
-				A3649DC258FD81FFF8443B63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,15 +127,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		A3649DC258FD81FFF8443B63 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				38E436F89C099034F78D93E2 /* Pods_GrouviActionSheet_Example.framework */,
-				021FAFE0ABF8A50B9A3466A3 /* Pods_GrouviActionSheet_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,7 +134,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GrouviActionSheet_Example" */;
 			buildPhases = (
-				D60BBF23A10522B3178FF2C6 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
@@ -184,7 +151,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GrouviActionSheet_Tests" */;
 			buildPhases = (
-				2186E8A4DB589D3A4E89FAD4 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -260,45 +226,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2186E8A4DB589D3A4E89FAD4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GrouviActionSheet_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D60BBF23A10522B3178FF2C6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GrouviActionSheet_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
@@ -449,7 +376,6 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 060512EDD79D2AD0592D52D4 /* Pods-GrouviActionSheet_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -468,7 +394,6 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F3A8F9590078F55A46A5EFC /* Pods-GrouviActionSheet_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -487,7 +412,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1908138334D0DF30C61B07C0 /* Pods-GrouviActionSheet_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -509,7 +433,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15E183569153BDAF5D6BD810 /* Pods-GrouviActionSheet_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

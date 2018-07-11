@@ -1,5 +1,5 @@
 import UIKit
-import GrouviExtensionKit
+import GrouviExtensions
 
 public class ActionSheetAnimation: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate {
 

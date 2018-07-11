@@ -1,16 +1,32 @@
 PODS:
-  - GrouviActionSheet (0.1.0)
+  - GrouviActionSheet (1.0.0):
+    - GrouviExtensions (~> 1.0.3)
+    - SnapKit (~> 4.0.0)
+  - GrouviExtensions (1.0.3):
+    - RxSwift (~> 4.2.0)
+    - SnapKit (~> 4.0.0)
+  - RxSwift (4.2.0)
+  - SnapKit (4.0.0)
 
 DEPENDENCIES:
   - GrouviActionSheet (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GrouviExtensions
+    - RxSwift
+    - SnapKit
 
 EXTERNAL SOURCES:
   GrouviActionSheet:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GrouviActionSheet: 0242051cacb2e7b0a3513ecce7d970611d8a317d
+  GrouviActionSheet: 22bd7767188fc5e158bfce7d0529103ad9705f98
+  GrouviExtensions: f4ae3a9043541a44cac60b9c046ec7f4f01cb2fe
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: 15e044ba70401cf23af97466be79cf12e0fb5e1c
+PODFILE CHECKSUM: 2f7d4636be299ef778821f8c522b8ec923c5ba3e
 
 COCOAPODS: 1.5.3

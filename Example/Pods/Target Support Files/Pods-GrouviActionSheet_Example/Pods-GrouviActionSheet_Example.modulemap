@@ -1,6 +1,0 @@
-framework module Pods_GrouviActionSheet_Example {
-  umbrella header "Pods-GrouviActionSheet_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
