@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DCC05296EF9F99D6380139A /* Pods_GrouviActionSheet_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F1FAA25463609D9061256F /* Pods_GrouviActionSheet_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8D8C50FFB62646312C1A3B82 /* Pods_GrouviActionSheet_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F25F6E45459931DC011A67 /* Pods_GrouviActionSheet_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09F1FAA25463609D9061256F /* Pods_GrouviActionSheet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrouviActionSheet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		547F0882A08F0957D21092E8 /* Pods-GrouviActionSheet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrouviActionSheet_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrouviActionSheet_Tests/Pods-GrouviActionSheet_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GrouviActionSheet_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrouviActionSheet_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		682C0CC4189F0CF17A6F4693 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		743F1E907C9DF39F437119F5 /* Pods-GrouviActionSheet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrouviActionSheet_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrouviActionSheet_Tests/Pods-GrouviActionSheet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8A213072DABA87656BBC5941 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AA2FAE3C2829EF84467068A8 /* Pods-GrouviActionSheet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrouviActionSheet_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrouviActionSheet_Example/Pods-GrouviActionSheet_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D4F25F6E45459931DC011A67 /* Pods_GrouviActionSheet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrouviActionSheet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E740BF70E8820129B5FEF6EA /* Pods-GrouviActionSheet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrouviActionSheet_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrouviActionSheet_Example/Pods-GrouviActionSheet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FD53E18476DB0CE85CAFC5C5 /* GrouviActionSheet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GrouviActionSheet.podspec; path = ../GrouviActionSheet.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DCC05296EF9F99D6380139A /* Pods_GrouviActionSheet_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8C50FFB62646312C1A3B82 /* Pods_GrouviActionSheet_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +76,8 @@
 				607FACD21AFB9204008FA782 /* Example for GrouviActionSheet */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
+				9FE9F7D3982B23B7FA5CEDA6 /* Pods */,
+				E83A34FC2296280BB64C50C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +139,26 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		9FE9F7D3982B23B7FA5CEDA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E740BF70E8820129B5FEF6EA /* Pods-GrouviActionSheet_Example.debug.xcconfig */,
+				AA2FAE3C2829EF84467068A8 /* Pods-GrouviActionSheet_Example.release.xcconfig */,
+				743F1E907C9DF39F437119F5 /* Pods-GrouviActionSheet_Tests.debug.xcconfig */,
+				547F0882A08F0957D21092E8 /* Pods-GrouviActionSheet_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E83A34FC2296280BB64C50C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09F1FAA25463609D9061256F /* Pods_GrouviActionSheet_Example.framework */,
+				D4F25F6E45459931DC011A67 /* Pods_GrouviActionSheet_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GrouviActionSheet_Example" */;
 			buildPhases = (
+				20EB3B41459A3647CAEE54FC /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				FEA99EDE5A60D4E4FA98E2ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GrouviActionSheet_Tests" */;
 			buildPhases = (
+				60DB57A4DF91B307A15DA2B8 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -226,6 +261,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20EB3B41459A3647CAEE54FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrouviActionSheet_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60DB57A4DF91B307A15DA2B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrouviActionSheet_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEA99EDE5A60D4E4FA98E2ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GrouviActionSheet_Example/Pods-GrouviActionSheet_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GrouviActionSheet/GrouviActionSheet.framework",
+				"${BUILT_PRODUCTS_DIR}/GrouviExtensions/GrouviExtensions.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GrouviActionSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GrouviExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrouviActionSheet_Example/Pods-GrouviActionSheet_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
@@ -376,6 +474,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E740BF70E8820129B5FEF6EA /* Pods-GrouviActionSheet_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -394,6 +493,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2FAE3C2829EF84467068A8 /* Pods-GrouviActionSheet_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -412,6 +512,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743F1E907C9DF39F437119F5 /* Pods-GrouviActionSheet_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -433,6 +534,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547F0882A08F0957D21092E8 /* Pods-GrouviActionSheet_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

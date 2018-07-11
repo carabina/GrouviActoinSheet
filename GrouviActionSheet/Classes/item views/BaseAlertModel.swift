@@ -1,5 +1,5 @@
 import UIKit
-import GrouviExtensionKit
+import GrouviExtensions
 import RxSwift
 
 open class BaseAlertModel {

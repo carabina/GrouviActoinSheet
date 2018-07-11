@@ -90,7 +90,7 @@ public class ActionSheetController: UIViewController, UIScrollViewDelegate {
             maker.leading.trailing.equalToSuperview()
         }
         backgroundView.addSubview(marginView)
-        backgroundView.touchHandler = { [weak self] _ in
+        backgroundView.handleTouch = { [weak self] in
             self?.dismiss()
         }
 

@@ -38,6 +38,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'GrouviExtensions', '~> 1.0.3'
+  s.dependency 'GrouviExtensions'
   s.dependency 'SnapKit', '~> 4.0.0'
 end

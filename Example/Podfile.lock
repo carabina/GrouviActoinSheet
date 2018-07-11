@@ -1,6 +1,6 @@
 PODS:
   - GrouviActionSheet (1.0.0):
-    - GrouviExtensions (~> 1.0.3)
+    - GrouviExtensions
     - SnapKit (~> 4.0.0)
   - GrouviExtensions (1.0.3):
     - RxSwift (~> 4.2.0)
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GrouviActionSheet: 22bd7767188fc5e158bfce7d0529103ad9705f98
+  GrouviActionSheet: c80d83be0990728e88e04aa742a1db0585ed7e11
   GrouviExtensions: f4ae3a9043541a44cac60b9c046ec7f4f01cb2fe
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
