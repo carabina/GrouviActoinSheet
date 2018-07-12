@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GrouviActionSheet'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Customisable replacement for UIAlertController.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 #TODO: Add long description of the pod here.
 #                       DESC
 
-  s.homepage         = 'https://github.com/grouvilimited/GrouviActoinSheet'
+  s.homepage         = 'https://github.com/horizontalsystems/GrouviActoinSheet'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'max' => 'trickster77777@gmail.com' }
-  s.source           = { :git => 'https://github.com/grouvilimited/GrouviActoinSheet.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/horizontalsystems/GrouviActoinSheet.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version = '4.1'
 
