@@ -2,7 +2,15 @@ import Foundation
 import GrouviExtensions
 import SnapKit
 
-public enum ActionStyle: Int { case alert, sheet }
+public enum ActionStyle { case alert, sheet(showDismiss: Bool) }
+
+public func ==(lhs: ActionStyle, rhs: ActionStyle) -> Bool {
+    switch (lhs, rhs) {
+        case let (.alert, .alert): return true
+        case let (.sheet(lhsValue), .sheet(rhsValue)): return lhsValue == rhsValue
+        default: return false
+    }
+}
 
 public class ActionSheetController: UIViewController, UIScrollViewDelegate {
 
@@ -48,7 +56,7 @@ public class ActionSheetController: UIViewController, UIScrollViewDelegate {
         fatalError()
     }
 
-    public init(withModel model: BaseAlertModel = BaseAlertModel(), actionStyle: ActionStyle = .sheet, customCancelButtonTitle: String? = nil) {
+    public init(withModel model: BaseAlertModel = BaseAlertModel(), actionStyle: ActionStyle = .sheet(showDismiss: true), customCancelButtonTitle: String? = nil) {
 
         self.model = model
         self.actionStyle = actionStyle
@@ -114,8 +122,8 @@ public class ActionSheetController: UIViewController, UIScrollViewDelegate {
             }
         }
         // cancel button
-        if actionStyle == .sheet {
-            dismissItemView = ActionItemView(item: ActionItem(title: cancelButtonTitle, bold: true, tag: -1, hidden: false, required: true))
+        if  case let .sheet(showCancel) = actionStyle, showCancel {
+            dismissItemView = ActionItemView(item: ActionItem(title: cancelButtonTitle, bold: true, tag: -1, hidden: !showCancel, required: true))
             marginView.addSubview(dismissView)
             dismissView.backgroundColor = ItemActionTheme.defaultBackground
             dismissView.layer.cornerRadius = ActionSheetTheme.cornerRadius
@@ -145,8 +153,12 @@ public class ActionSheetController: UIViewController, UIScrollViewDelegate {
         contentView.clipsToBounds = true
         contentView.snp.makeConstraints { maker in
             maker.leading.trailing.equalToSuperview()
-            if actionStyle == .sheet {
-                maker.bottom.equalTo(dismissView.snp.top).offset(-ActionSheetTheme.sideMargin)
+            if case let .sheet(showCancel) = actionStyle {
+                if showCancel {
+                    maker.bottom.equalTo(dismissView.snp.top).offset(-ActionSheetTheme.sideMargin)
+                } else {
+                    maker.bottom.equalToSuperview()
+                }
             } else {
                 maker.centerY.equalToSuperview()
             }
@@ -197,7 +209,7 @@ public class ActionSheetController: UIViewController, UIScrollViewDelegate {
         isHiddenDismiss = hide
         dismissView.isHidden = hide
         // remove.show dismissView
-        if actionStyle == .sheet {
+        if case let .sheet(showCancel) = actionStyle, showCancel {
             dismissView.snp.updateConstraints() { maker in
                 maker.bottom.equalToSuperview().offset(isHiddenDismiss ? (ItemActionTheme.defaultItemHeight + ActionSheetTheme.sideMargin) : 0)
             }
@@ -236,7 +248,7 @@ public class ActionSheetController: UIViewController, UIScrollViewDelegate {
 
         model.modelLayoutSubviews?()
 
-        let maximumHeight = marginView.bounds.height - (isHiddenDismiss || actionStyle == .alert ? 0 : (dismissView.bounds.height + ActionSheetTheme.sideMargin))
+        let maximumHeight = marginView.bounds.height - (!isHiddenDismiss && ActionStyle.sheet(showDismiss: true) == actionStyle ? (dismissView.bounds.height + ActionSheetTheme.sideMargin) : 0)
         let itemsContentHeight = contentViewWillChangeHeight?(maximumHeight) ?? itemsScrollView.contentSize.height
 
         let newHeight = max(0, min(maximumHeight, itemsContentHeight))
