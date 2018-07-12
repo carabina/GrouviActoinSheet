@@ -6,9 +6,9 @@ public enum ActionStyle { case alert, sheet(showDismiss: Bool) }
 
 public func ==(lhs: ActionStyle, rhs: ActionStyle) -> Bool {
     switch (lhs, rhs) {
-        case let (.alert, .alert): return true
-        case let (.sheet(lhsValue), .sheet(rhsValue)): return lhsValue == rhsValue
-        default: return false
+    case (.alert, .alert): return true
+    case let (.sheet(lhsValue), .sheet(rhsValue)): return lhsValue == rhsValue
+    default: return false
     }
 }
 
